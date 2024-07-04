@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0C0B26;
+    color: white;
+    font-family: Verdana;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(28, 28, 59);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(57, 57, 173);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+.left:hover{
+    /* zoom: 1.3; */
+    color: antiquewhite;
+    transition: 0.5s;
+    
+}
+
+.fsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.fsection>div {
+    width: 30%;
+}
+
+.fsection .btn {
+    margin-top: 30px;
+    padding: 8px;
+    background: rgb(49, 11, 119);
+    color: white;
+    border: 1px solid wheat;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fsection .btn:hover{
+    background-color: rgb(0, 238, 167);
+    color: rgb(143, 9, 155);
+    border: 1px solid red;
+
+}
+
+.leftside {
+    background-color: transparent;
+    margin: 30px 0px;
+    font-size: 2rem;
+}
+
+.leftside span {
+    color: blueviolet;
+}
+
+.rightside {
+    background-color: transparent;
+
+}
+
+.rightside img {
+    margin-left: -70px;
+}
+
+main hr,
+footer hr {
+    border: 0px;
+    background-color: #9c97f1;
+    height: 1px;
+    margin: 30px 84px;
+}
+
+.ssection h1 {
+    font-size: 1.6rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.ssection {
+    max-width: 160vh;
+    margin: auto;
+    height: 80vh;
+}
+
+.ssection .box {
+    background: white;
+    height: 2px;
+    width: 160vh;
+    margin: 100px 0;
+    display: flex;
+
+}
+
+.ssection .box .vertical {
+    width: 1px;
+    height: 90px;
+    background: white;
+    margin: 0 125px;
+}
+
+.ssection .box .vertical .image-top {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    top: -32px;
+    position: relative;
+    left: -10px;
+}
+
+.ssection .box .vertical .vertical-title {
+    position: relative;
+    top: 70px;
+    left: -45px;
+    width: 176px;
+}
+
+.ssection .box .vertical .vertical-dec {
+    position: relative;
+    top: 80px;
+    left: -40px;
+    color: gray;
+    font-size: 11px;
+    width: 155px;
+}
+
+footer {
+    background: #09071f;
+    height: 22rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.footer>div {
+    width: 220px;
+    margin: 10px 0;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.footer .footer-one p {
+    font-size: 0.8rem;
+    color: gainsboro;
+
+}
+
+.footer .footer-two li,
+.footer-three li {
+    margin-top: 10px;
+}
+
+.footer .footer-two {
+    margin-left: 50px;
+}
+
+.footer>div>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer>div>h3,
+h4 {
+    color: bisque;
+    padding-bottom: 10px;
+}
+
+.footer-text-center {
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    margin-top: -20px;
+
+}
